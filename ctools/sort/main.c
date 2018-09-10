@@ -1,4 +1,10 @@
 /*
+  Desc:
+    This code aims to test several sort algorithm,
+    including 'Quick Sort', 'Insertion Sort', 'Merge Sort', etc.
+
+  Author:
+    Julien
 */
 #include <stdio.h>
 #include <stdlib.h>
