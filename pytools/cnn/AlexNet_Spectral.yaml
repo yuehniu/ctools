@@ -1,0 +1,28 @@
+- misc: 
+    net: AlexNet
+    datasize: 8
+- conv1: 
+    outchnl: 96
+    inchnl: 3
+    kw: 16
+    kh: 16
+- conv2: 
+    outchnl: 256
+    inchnl: 96
+    kw: 16
+    kh: 16
+- conv3: 
+    outchnl: 384
+    inchnl: 256
+    kw: 16
+    kh: 16
+- conv4: 
+    outchnl: 384
+    inchnl: 384
+    kw: 16
+    kh: 16
+- conv5: 
+    outchnl: 256
+    inchnl: 384
+    kw: 16
+    kh: 16

@@ -1,0 +1,68 @@
+- misc: 
+    net: VGG16
+    datasize: 4
+- conv1_1: 
+    outchnl: 64
+    inchnl: 3
+    kw: 3
+    kh: 3
+- conv1_2: 
+    outchnl: 64
+    inchnl: 64
+    kw: 3
+    kh: 3
+- conv2_1:
+    outchnl: 128
+    inchnl: 64
+    kw: 3
+    kh: 3
+- conv2_2:
+    outchnl: 128
+    inchnl: 128
+    kw: 3
+    kh: 3
+- conv3_1: 
+    outchnl: 256
+    inchnl: 128
+    kw: 3
+    kh: 3
+- conv3_2: 
+    outchnl: 256
+    inchnl: 256
+    kw: 3
+    kh: 3
+- conv3_3: 
+    outchnl: 256
+    inchnl: 256
+    kw: 3
+    kh: 3
+- conv4_1: 
+    outchnl: 512
+    inchnl: 256
+    kw: 3
+    kh: 3
+- conv4_2: 
+    outchnl: 512
+    inchnl: 512
+    kw: 3
+    kh: 3
+- conv4_3: 
+    outchnl: 512
+    inchnl: 512
+    kw: 3
+    kh: 3
+- conv5_1: 
+    outchnl: 512
+    inchnl: 512
+    kw: 3
+    kh: 3
+- conv5_2: 
+    outchnl: 512
+    inchnl: 512
+    kw: 3
+    kh: 3
+- conv5_3: 
+    outchnl: 512
+    inchnl: 512
+    kw: 3
+    kh: 3

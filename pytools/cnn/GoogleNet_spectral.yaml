@@ -1,0 +1,283 @@
+- misc: 
+    net: GoogleNet_spectral
+    datasize: 4
+- conv1: 
+    outchnl: 64
+    inchnl: 3
+    kw: 16
+    kh: 16
+- conv2: 
+    outchnl: 192
+    inchnl: 64
+    kw: 16
+    kh: 16
+- conv3a_1: 
+    outchnl: 64
+    inchnl: 192
+    kw: 1
+    kh: 1
+- conv3a_2_1: 
+    outchnl: 96
+    inchnl: 192
+    kw: 1
+    kh: 1
+- conv3a_2_2: 
+    outchnl: 128
+    inchnl: 96
+    kw: 16
+    kh: 16
+- conv3a_3_1: 
+    outchnl: 16
+    inchnl: 192
+    kw: 1
+    kh: 1
+- conv3a_3_2: 
+    outchnl: 32
+    inchnl: 16
+    kw: 16
+    kh: 16
+- conv3a_4: 
+    outchnl: 32
+    inchnl: 192
+    kw: 1
+    kh: 1
+- conv3b_1: 
+    outchnl: 128
+    inchnl: 256
+    kw: 1
+    kh: 1
+- conv3b_2_1: 
+    outchnl: 128
+    inchnl: 256
+    kw: 1
+    kh: 1
+- conv3b_2_2: 
+    outchnl: 192
+    inchnl:  128
+    kw: 16
+    kh: 16
+- conv3b_3_1: 
+    outchnl: 32
+    inchnl: 256
+    kw: 1
+    kh: 1
+- conv3b_3_2: 
+    outchnl: 96
+    inchnl: 32
+    kw: 16
+    kh: 16
+- conv3b_4: 
+    outchnl: 64
+    inchnl: 256
+    kw: 1
+    kh: 1
+- conv4a_1: 
+    outchnl: 192
+    inchnl: 480
+    kw: 1
+    kh: 1
+- conv4a_2_1: 
+    outchnl: 96
+    inchnl: 480
+    kw: 1
+    kh: 1
+- conv4a_2_2: 
+    outchnl: 208
+    inchnl:  96
+    kw: 16
+    kh: 16
+- conv4a_3_1: 
+    outchnl: 16
+    inchnl: 480
+    kw: 1
+    kh: 1
+- conv4a_3_2: 
+    outchnl: 48
+    inchnl: 16
+    kw: 16
+    kh: 16
+- conv4a_4: 
+    outchnl: 64
+    inchnl: 480
+    kw: 1
+    kh: 1
+- conv4b_1: 
+    outchnl: 160
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4b_2_1: 
+    outchnl: 112
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4b_2_2: 
+    outchnl: 224
+    inchnl:  112
+    kw: 16
+    kh: 16
+- conv4b_3_1: 
+    outchnl: 24
+    inchnl:  512
+    kw: 1
+    kh: 1
+- conv4b_3_2: 
+    outchnl: 64
+    inchnl: 24
+    kw: 16
+    kh: 16
+- conv4b_4: 
+    outchnl: 64
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4c_1: 
+    outchnl: 128
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4c_2_1: 
+    outchnl: 128
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4c_2_2: 
+    outchnl: 256
+    inchnl:  128
+    kw: 16
+    kh: 16
+- conv4c_3_1: 
+    outchnl: 24
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4c_3_2: 
+    outchnl: 64
+    inchnl: 24
+    kw: 16
+    kh: 16
+- conv4c_4: 
+    outchnl: 64
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4d_1: 
+    outchnl: 112
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4d_2_1: 
+    outchnl: 144
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4d_2_2: 
+    outchnl: 288
+    inchnl:  144
+    kw: 16
+    kh: 16
+- conv4d_3_1: 
+    outchnl: 32
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4d_3_2: 
+    outchnl: 64
+    inchnl: 32
+    kw: 16
+    kh: 16
+- conv4d_4: 
+    outchnl: 64
+    inchnl: 512
+    kw: 1
+    kh: 1
+- conv4e_1: 
+    outchnl: 256
+    inchnl: 528
+    kw: 1
+    kh: 1
+- conv4e_2_1: 
+    outchnl: 160
+    inchnl: 528
+    kw: 1
+    kh: 1
+- conv4e_2_2: 
+    outchnl: 320
+    inchnl:  160
+    kw: 16
+    kh: 16
+- conv4e_3_1: 
+    outchnl: 32
+    inchnl: 528
+    kw: 1
+    kh: 1
+- conv4e_3_2: 
+    outchnl: 128
+    inchnl: 32
+    kw: 16
+    kh: 16
+- conv4e_4: 
+    outchnl: 128
+    inchnl: 528
+    kw: 1
+    kh: 1
+- conv5a_1: 
+    outchnl: 256
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5a_2_1: 
+    outchnl: 160
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5a_2_2: 
+    outchnl: 320
+    inchnl:  160
+    kw: 16
+    kh: 16
+- conv5a_3_1: 
+    outchnl: 32
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5a_3_2: 
+    outchnl: 128
+    inchnl: 32
+    kw: 16
+    kh: 16
+- conv5a_4: 
+    outchnl: 128
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5b_1: 
+    outchnl: 384
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5b_2_1: 
+    outchnl: 192
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5b_2_2: 
+    outchnl: 384
+    inchnl:  192
+    kw: 16
+    kh: 16
+- conv5b_3_1: 
+    outchnl: 48
+    inchnl: 832
+    kw: 1
+    kh: 1
+- conv5b_3_2: 
+    outchnl: 128
+    inchnl: 48
+    kw: 16
+    kh: 16
+- conv5b_4: 
+    outchnl: 128
+    inchnl: 832
+    kw: 1
+    kh: 1
